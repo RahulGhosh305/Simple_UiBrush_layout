@@ -1,0 +1,144 @@
+/** prototype**/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 100%;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 -15px;
+}
+
+.col {
+    padding: 0px 15px;
+}
+
+.text-primary {
+    color: #39c9da;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-color {
+    background-color: #39c9da;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn-lg {
+    padding: 17px 40px;
+
+}
+
+.btn-primary {
+    background-color: #39c9da;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/** Header part start**/
+
+header {
+    background-image: url(../images/back.png);
+    height: 625px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.header-wrap {
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.navber {
+    list-style-type: none;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.navber li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.banner-text h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
