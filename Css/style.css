@@ -93,7 +93,6 @@ a {
 
 .btn-lg {
     padding: 17px 40px;
-
 }
 
 .btn-primary {
@@ -102,6 +101,20 @@ a {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 600;
+    border-radius: 10px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #126d77;
 }
 
 .d-flex {
@@ -141,6 +154,17 @@ header {
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.navber li a:hover {
+    color: #39c9da;
+    border-bottom: 2px solid #39c9da;
 }
 
 .banner-text {
@@ -266,6 +290,11 @@ header {
     -o-transition: 0.3;
 }
 
+.btn-readmore:hover {
+    background-color: #fff;
+    color: #000;
+}
+
 .port-item:hover .btn-readmore {
     visibility: visible;
 }
@@ -305,7 +334,7 @@ header {
     position: absolute;
     width: 100px;
     height: 3px;
-    background-color: #aaa;
+    background-color: #ddd;
     bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
@@ -333,4 +362,41 @@ header {
 .service-item:hover .btn-readmore-black {
     background-color: #fff;
     color: #000;
+}
+
+/* * Contact Us start* */
+.address h4 {
+    margin-bottom: 15px;
+}
+
+.contact-us-wrapper {
+    background-color: #e4e4e4;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control,
+textarea {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    height: 15px;
+    padding: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-text {
+    height: 130px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    float: right;
+}
+
+footer {
+    padding: 20px 0px;
+    background-color: #39c9da;
 }
