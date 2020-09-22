@@ -44,6 +44,11 @@ a {
     padding: 0px 15px;
 }
 
+.col-3 {
+    padding: 0px 15px;
+    flex-basis: 25%;
+}
+
 .col-4 {
     padding: 0px 15px;
     flex-basis: 33.33333%;
@@ -263,4 +268,69 @@ header {
 
 .port-item:hover .btn-readmore {
     visibility: visible;
+}
+
+/** Services Start **/
+.service-item {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 30px 15px;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+
+.service-desc {
+    margin-bottom: 20px;
+}
+
+.icon i {
+    color: #39c9da;
+    font-size: 50px;
+}
+
+.service-after {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.service-after::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: #aaa;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.btn-readmore-black {
+    background-color: #444;
+    color: #fff;
+}
+
+.service-item:hover {
+    background-color: #39c9da;
+}
+
+.service-item:hover .service-after,
+.service-item:hover .icon i,
+.service-item:hover .service-desc {
+    color: #fff;
+}
+
+.service-item:hover .btn-readmore-black {
+    background-color: #fff;
+    color: #000;
 }
