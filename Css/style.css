@@ -168,6 +168,7 @@ header {
 }
 
 .banner-text {
+    width: 90%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -301,6 +302,7 @@ header {
 
 /** Services Start **/
 .service-item {
+    margin-bottom: 30px;
     text-align: center;
     border: 1px solid #ddd;
     padding: 30px 15px;
